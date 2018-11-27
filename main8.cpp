@@ -56,7 +56,7 @@ int main()
 	int procedureID;
 	int providerID;
 
-	/*ifstream inFile;
+	ifstream inFile;
 	inFile.open("CurrentPatients.dat", ios::binary);
 	if (inFile.is_open())
 	{
@@ -65,7 +65,7 @@ int main()
 			totalCount++;
 		}
 	}
-	inFile.close();*/
+	inFile.close();
 
 	cout << "Enter in today's date (MM DD YYYY): ";
 	cin >> tMonth;
@@ -324,12 +324,12 @@ int main()
 		}
 	}while (quit != true);
 
-	/*ofstream outFile;
+	ofstream outFile;
 	outFile.open("CurrentPatients.dat", ios::binary);
 	for (int i = 0; i < totalCount; i++)
 	{
 		outFile.write(reinterpret_cast<char*>(&patientRecord), sizeof(Patient));
 	}
 
-	return 0;*/
+	return 0;
 }
