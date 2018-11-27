@@ -1,7 +1,7 @@
 # Patient Record
 The Hospital Patient Record can do a variety of tasks: enter and check in a new patient, check in a returning patient, input procedure information for checked in patients then check that patient out, print all information about a specific patient, and print general information about a patient. Any new information about a patient is stored into a binary search tree. Two binary search trees are in use for this program: a patient record tree and a current patient record tree. The patient record tree contains any and all information about a patient in not only the current session but any past sessions. How the program checks for patients in past sessions will be explained in the quit command section. The current patient record tree contains any patients that are currently checked in. If a particular patient has been checked out, the program will remove that patient from the current patient record tree. The instructions for how to do theses tasks are shown in the menu of the program. But to make the instructions visible here, the following are the commands for how to these tasks in the program:
 
-       		N - Enter and check in a new patient.
+       		 N - Enter and check in a new patient.
 			 R - Check in a returning patient.
 			 O - Input procedure information for checked in patients then check that patient out.
 			 I - Print all information about a particular patient
